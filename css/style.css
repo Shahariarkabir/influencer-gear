@@ -255,6 +255,27 @@ footer .fab {
   margin: 5px;
 }
 
+.icon a i {
+  color: #ffffff;
+  background-color: rgba(0, 255, 255, 0.2);
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 0.4s linear;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+
+.icon i:hover {
+  color: var(--brand-color);
+}
+
 .copyright {
   margin-top: 5px;
   margin-bottom: 15px;
