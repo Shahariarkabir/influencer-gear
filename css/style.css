@@ -227,3 +227,37 @@ p.product-description {
   color: var(--main-color);
 }
 /* Popular Section End*/
+
+/* Footer Section Start */
+
+footer {
+  background-color: #0a0826;
+  text-align: center;
+}
+footer .row {
+  padding: 30px 0;
+}
+footer h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+footer p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #d9dbe1;
+}
+footer .fab {
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #ffffff23;
+  margin: 5px;
+}
+
+.copyright {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* Footer Section End */
