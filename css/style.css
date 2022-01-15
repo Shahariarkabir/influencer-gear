@@ -1,11 +1,7 @@
-/* <--------------------------->
-    fonts Collaction
-   <--------------------------->*/
+/*______________________________________ 
+---------- import CSS fonts ---------- 
+========================================*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap");
-
-/* 
-   font-family: 'Poppins','Inter', sans-serif; 
-   */
 
 /* <--------------------------->
       Common Style 
@@ -42,9 +38,11 @@ li {
   --main-color: #3a3a3a;
   --button-bg-color: #e02c6d;
   --button-text-color: #e02c6d;
+  --brand-color: #e02c6d;
+  --brand-color2: #c031ad;
 }
 
-/* nav  */
+/* Menu bar  Start*/
 nav {
   height: 100px;
   display: flex;
@@ -55,15 +53,25 @@ nav a {
   padding: 5px 10px;
   color: var(--main-color);
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 800;
+  font-size: 18px;
   color: var(--main-color);
+}
+nav a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
 }
 nav ul {
   display: flex;
 }
 nav .logo a {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 800;
   color: var(--main-color);
 }
+nav .logo a:hover {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+/* Menu bar  End*/
