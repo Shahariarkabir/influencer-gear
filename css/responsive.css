@@ -1,0 +1,43 @@
+/* Media query  */
+
+/* For Mobile Device */
+@media screen and (max-width: 667px) {
+  #product-column {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .product.shadow {
+    width: 95%;
+    height: 100%;
+    padding: 10px 0;
+    box-shadow: 15px 5px 80px rgb(196, 187, 187);
+    border-radius: 5px;
+  }
+  nav {
+    justify-content: center;
+  }
+  .nav-right {
+    display: none;
+  }
+  .hero:hover.hero img {
+    transform: scale(1) rotate(12deg);
+  }
+}
+
+/* For Tablet Device */
+@media screen and (max-width: 992px) {
+  .hero .row {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    grid-gap: 35px;
+  }
+  .hero .content-left {
+    text-align: center;
+  }
+  .popular-collection .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero:hover.hero img {
+    transform: scale(1.1) rotate(15deg);
+  }
+}
